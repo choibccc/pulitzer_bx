@@ -1,0 +1,71 @@
+
+body,
+html{
+    overflow: hidden;
+}
+
+#container {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 10;
+    overflow: hidden;
+    background: black;
+    transition: all 1s;
+}
+
+
+#oneScroller{
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 9999;
+    transition: all 1s;
+    background: green;
+}
+#oneScroller.active{
+    transform: translateX(-100%);
+}
+
+.scroll-content > section{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+
+
+
+
+.posNum {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    width: 300px;
+    height: 50px;
+    margin: -25px 0 0 -150px;
+    background: rgba(0,0,0,0.6);
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 50px;
+    z-index: 9999;
+}
+.startPoint{
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    right: 100px;
+    bottom: 100px;
+    z-index: 899998989;
+    background: black;
+    border: none;
+    outline: none;
+    cursor: pointer;
+
+}
