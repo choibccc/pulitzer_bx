@@ -132,7 +132,7 @@ window.addEventListener('DOMContentLoaded', function () {
         if(scrollTop >= 11900){
             $('#section02 .trigger_this_02 .fix_this_2 .page08 .h08_text').addClass('on')
         }
-        if(scrollTop >= 20100){
+        if(scrollTop >= 19640){
             $('#section02 .trigger_this_02 .fix_this_2 .page013 .h09_circle').addClass('on')
         }
         if(scrollTop >= 19400){
@@ -141,13 +141,13 @@ window.addEventListener('DOMContentLoaded', function () {
         if(scrollTop >= 21800){
             $('#section02 .trigger_this_02 .fix_this_2 .page014').addClass('on')
         }
-        if(scrollTop >= 24500){
+        if(scrollTop >= 24000){
             $('#section02 .trigger_this_02 .fix_this_2 .page014 .last_shape').addClass('on')
         }
         if(scrollTop >= 23000){
             $('#section02 .trigger_this_02 .fix_this_2 .page014 .last_left_text').addClass('on')
         }
-        if(scrollTop >= 24200){
+        if(scrollTop >= 24000){
             $('#section02 .trigger_this_02 .fix_this_2 .page014 .last_right_text').addClass('on')
         }
 

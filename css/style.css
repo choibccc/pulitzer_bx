@@ -306,8 +306,8 @@
     height: 150vh;
     position: absolute;
     left: 65%;
-    top: 5%;
-    transform: translate(-49.3%, -47%) rotate(-45deg);
+    top: 2%;
+    transform: translate(-50%, -49%) rotate(-45deg);
 }
 
 #oneScroller .main_00 .slick-track {
@@ -436,19 +436,19 @@
 .trigger_this_01 .fix_this_1 .feature_Photography {
     position: absolute;
     left: 49px;
-    top: 187px;
+    top: 215px;
 }
 
 .trigger_this_01 .fix_this_1 .feature_Photography_line {
     position: absolute;
-    top: 187px;
-    left: 66px;
+    top: 215px;
+    left: 50px;
 }
 
 .trigger_this_01 .fix_this_1 .breaking_news {
     position: absolute;
-    left: 49px;
-    top: 662px;
+    left: 50px;
+    top: 647px;
 }
 
 #section01 .img_01 {
