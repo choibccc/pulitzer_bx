@@ -196,7 +196,6 @@ window.addEventListener('DOMContentLoaded', function () {
 
     })
 
-    $('#gnb .gnb_bg').removeClass('on')
 
     gsap.to('.fix_this_1', {
         scrollTrigger: {
@@ -267,7 +266,12 @@ window.addEventListener('DOMContentLoaded', function () {
     $('.gnb_menu').click(function () {
         $('.gnb_menu').toggleClass('on')
         $('#mega').toggleClass('on')
+        $('.gnb_bg').toggleClass('off')
+
     })
+
+
+
 
 
 

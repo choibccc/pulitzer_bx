@@ -209,6 +209,10 @@
     background: #0b0b0b;
 }
 
+#gnb .gnb_bg.off {
+    background: transparent;
+}
+
 #gnb .gnb_left {
     position: absolute;
     left: 164px;
