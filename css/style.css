@@ -2343,10 +2343,27 @@
     left: 0;
     top: 0;
 }
-#section02 .trigger_this_02 .fix_this_2 .page010 .h10_background{
+#section02 .trigger_this_02 .fix_this_2 .page010{
+    overflow: hidden;
+}
+#section02 .trigger_this_02 .fix_this_2 .page010 .h10_ba{
     position: absolute;
     top: 87px;
-    right: 355px;
+    left: -4123px;
+}
+#section02 .trigger_this_02 .fix_this_2 .page010 .h10_ba .h10_back{
+    display: flex;
+    animation: h10_back 20s linear infinite;
+}
+#section02 .trigger_this_02 .fix_this_2 .page010 .h10_ba .h10_back > div{
+    flex-shrink: 0;
+}
+
+@keyframes h10_back {
+    100%{
+        transform: translateX(4123px);
+    }
+
 }
 .trigger_this_02 .fix_this_2 .page010 .h10_left_img {
     position: absolute;
@@ -3247,18 +3264,21 @@
     filter: grayscale(0);
 }
 
-
-#section02 .trigger_this_02 .fix_this_2 .page014 .last_shape {
+#section02 .trigger_this_02 .fix_this_2 .page014 .startPoint{
+    width: 165px;
+    height: 150px;
     position: absolute;
     right: 103px;
     top: 142px;
-    overflow: hidden;
-}
-#section02 .trigger_this_02 .fix_this_2 .page014 .last_shape img{
+    background: transparent;
+    cursor: pointer;
+    border: none;
+    outline: none;
     transition: all 1s;
     transform: translateX(100%);
+    overflow: hidden;
 }
-#section02 .trigger_this_02 .fix_this_2 .page014 .last_shape.on img{
+#section02 .trigger_this_02 .fix_this_2 .page014 .startPoint.on{
     transform: translateX(0);
 }
 

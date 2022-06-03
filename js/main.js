@@ -142,7 +142,7 @@ window.addEventListener('DOMContentLoaded', function () {
             $('#section02 .trigger_this_02 .fix_this_2 .page014').addClass('on')
         }
         if(scrollTop >= 24000){
-            $('#section02 .trigger_this_02 .fix_this_2 .page014 .last_shape').addClass('on')
+            $('#section02 .trigger_this_02 .fix_this_2 .page014 .startPoint').addClass('on')
         }
         if(scrollTop >= 23000){
             $('#section02 .trigger_this_02 .fix_this_2 .page014 .last_left_text').addClass('on')
